@@ -9,8 +9,6 @@ from sklearn.linear_model import LinearRegression
 vAR_df = vAR_pd.read_excel('C:/Users/rpachiannan/PycharmProjects/AI_GIT/ArtificialIntelligence/data/4 - Intercompany_Transaction_Weighted_Accuracy_Intercompany_Transcation_Train_Converted.xlsx')
 print(vAR_df.head(3))
 
-
-
 # Convert Categorical Data into Numerical Values using Label Encoder
 
 # Convertion of Categorical Data into Numerical Values & Feature Selection for Clustering.
