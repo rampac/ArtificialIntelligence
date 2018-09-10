@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 # Import Training Data
 
 vAR_df = vAR_pd.read_excel('C:/Users/rpachiannan/PycharmProjects/AI_GIT/ArtificialIntelligence/data/4 - Intercompany_Transaction_Weighted_Accuracy_Intercompany_Transcation_Train_Converted.xlsx')
-print(vAR_df.head(3))
+# print(vAR_df.head(3))
 
 # Convert Categorical Data into Numerical Values using Label Encoder
 
@@ -35,6 +35,8 @@ vAR_Features_Test = vAR_df6[['Company_Code','Trading_Partner','Trading_Partner_C
 # Run Model on Test Data to use the imported test data to Prodict our Outcome
 
 vAR_Labels_Pred = vAR_model.predict(vAR_Features_Test).astype(int)
+
+print(vAR_Labels_Pred)
 
 # Review Model Outcome
 
