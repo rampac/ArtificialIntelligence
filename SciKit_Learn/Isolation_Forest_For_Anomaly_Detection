@@ -1,0 +1,16 @@
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+from sklearn.ensemble import IsolationForest
+
+vAR_df = pd.read_excel('C:/Ramesh/AI/Data_for_all_problems.xlsx')
+
+required_df = [['Company', 'Trading Partner', 'Customer', 'Vendor', 'GL Account', 'Amount', 'Trasaction Type']]
+
+print(vAR_df.head)
+
+
+
