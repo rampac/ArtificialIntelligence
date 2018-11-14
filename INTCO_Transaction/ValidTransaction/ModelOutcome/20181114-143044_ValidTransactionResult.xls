@@ -1,0 +1,5 @@
+	Amount	Company	Currency	Customer	Data_Category	Data_Source	Date_of_Transaction	Document_Date	GL_Account	INTCO Trasaction	Posting_date	Trading_Partner	Trasaction_Type	Vendor	Valid Record1
+0	100500	111111	USD		Actual	FlatFile	10/11/17	10/6/17	457856	Y	10/11/17	999999	AR		N
+1	7336500	999999	INR		Actual	FlatFile	10/11/17	10/11/17	983476	Y	10/11/17	111111	AP		N
+2	90050	111111	USD		Actual	FlatFile	10/25/17	10/25/17	457856	Y	10/25/17	888888	AR	er	N
+3	630350	888888	CNY	we	Actual		10/25/17	10/25/17	453423	Y	10/25/17	111111	AP		N
